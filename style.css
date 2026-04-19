@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+h1,h2 {
+  color: rgb(231, 229, 253);
+}
+p {
+  color: rgb(180, 182, 206);
+}
+body {  
+  background-image: url(resources/Background_image.svg);
+  /* background-color: rgb(21, 22, 39); */
+  background-color: rgba(15, 16, 34, 0.979);
+  color: rgb(180, 182, 206);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px 10px 10px 10px;
+}
+.heading h1 {
+  max-width: 350px;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+.heading p {
+  font-size: small;
+  margin-bottom: 5px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main div {
+  width: 350px;
+  padding: 20px;
+  background-color:rgba(32, 33, 56, 0.705);
+  margin: 20px;
+  border-radius: 10px;
+}
+main div span {
+  font-size: xx-large;
+}
+main div p {
+  margin-bottom: 20px;
+}
+main div h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
